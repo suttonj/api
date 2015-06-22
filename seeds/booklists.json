@@ -1,0 +1,752 @@
+[
+	{
+		"_id": 1,
+		"person": "Bill Gates",
+		"category": "travel",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5000000000000000,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 6,
+		"person": "Mark Zuckerberg",
+		"category": "technology",
+		"title": "A Year of Books",
+		"description": "Mark Zuckerberg's reading list 2015: A year of books",
+		"source": "https://www.facebook.com/ayearofbooks",
+		"books": [
+			{
+			    "isbn10" : "1595586431",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.6,
+			    "reflink" : "http://www.amazon.com/The-New-Crow-Incarceration-Colorblindness/dp/1595586431",
+			    "description" : "Mass Incarceration in the Age of Colorblindness",
+			    "author" : "Michelle Alexander",
+			    "title" : "The New Jim Crow"
+			},
+			{
+			    "isbn10" : "1501127705",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4,
+			    "reflink" : "http://www.amazon.com/Orwells-Revenge-Palimpsest-Peter-Huber/dp/1501127705/ref=sr_1_1?s=books&ie=UTF8&qid=1434592540&sr=1-1&keywords=Orwell%27s+Revenge&pebp=1434592597606&perid=0YYTE3SGMP7NCJHGMD6J",
+			    "image" : "http://ecx.images-amazon.com/images/I/814B5k4LuYL.jpg",
+			    "description" : "The 1984 Palimpsest",
+			    "author" : "Peter Huber",
+			    "title" : "Orwell's Revenge"
+			},
+			{
+			    "isbn10" : "1851683550",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 5,
+			    "reflink" : "http://www.amazon.com/Wine-Wisdom-Poetry-Philosophy-Khayyam/dp/1851683550/ref=sr_1_1?s=books&ie=UTF8&qid=1434592667&sr=1-1&keywords=The+Wine+of+Wisdom%3A+the+Life%2C+Poetry&pebp=1434592716974&perid=0C7K0JSTHRCS7S3BH20A",
+			    "image" : "http://ecx.images-amazon.com/images/I/61IP1kWnNML.jpg",
+			    "description" : "the Life, Poetry and Philosophy of Omar Khayyam",
+			    "author" : "Michelle Alexander",
+			    "title" : "The Wine of Wisdom"
+			},
+			{
+			    "isbn10" : "0465065694",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/End-Power-Boardrooms-Battlefields-Churches/dp/0465065694/ref=sr_1_1?s=books&ie=UTF8&qid=1434593023&sr=1-1&keywords=The+End+of+Power&pebp=1434593024641&perid=0CCN6N5VJ870DRDA7FCM",
+			    "image" : "http://ecx.images-amazon.com/images/I/41WWSSV6ZiL.jpg",
+			    "description" : "From Boardrooms to Battlefields and Churches to States, Why Being In Charge Isn’t What It Used to Be",
+			    "author" : "Moises Naim",
+			    "title" : "The End of Power"
+			},
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "014311493X",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.4,
+			    "reflink" : "http://www.amazon.com/Gang-Leader-Day-Sociologist-Streets/dp/014311493X/ref=sr_1_1?s=books&ie=UTF8&qid=1434593354&sr=1-1&keywords=Gang+Leader+for+a+Day&pebp=1434593364962&perid=0ZT852V40Q4Q4PVGGR72",
+			    "image" : "http://ecx.images-amazon.com/images/I/51og4gOWJKL.jpg",
+			    "description" : "A Rogue Sociologist Takes to the Streets",
+			    "author" : "Sudhir Venkatesh",
+			    "title" : "Gang Leader for a Day"
+			},
+			{
+			    "isbn10" : "1555976891",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.1,
+			    "reflink" : "http://www.amazon.com/Immunity-Inoculation-Eula-Biss/dp/1555976891/ref=sr_1_1?s=books&ie=UTF8&qid=1434593463&sr=1-1&keywords=On+Immunity&pebp=1434593464671&perid=13T60R0WMS34XFXN1TAJ",
+			    "image" : "http://ecx.images-amazon.com/images/I/81chfUwgLTL.jpg",
+			    "description" : "An Inoculation",
+			    "author" : "Eula Biss",
+			    "title" : "On Immunity"
+			},
+			{
+			    "isbn10" : "0812993012",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012/ref=sr_1_1?s=books&ie=UTF8&qid=1434593556&sr=1-1&keywords=Creativity%2C+Inc&pebp=1434593557806&perid=0424WY11RP9E51V0H86R",
+			    "image" : "http://ecx.images-amazon.com/images/I/41xs4vbcTPL.jpg",
+			    "description" : "Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
+			    "author" : "Ed Catmull",
+			    "title" : "Creativity, Inc"
+			},
+			{
+			    "isbn10" : "0226458121",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.4,
+			    "reflink" : "http://www.amazon.com/Structure-Scientific-Revolutions-50th-Anniversary/dp/0226458121/ref=sr_1_1?s=books&ie=UTF8&qid=1434593652&sr=1-1&keywords=The+Structure+of+Scientific+Revolutions",
+			    "image" : "http://ecx.images-amazon.com/images/I/513idQbSzHL.jpg",
+			    "description" : "",
+			    "author" : "Thomas S. Kuhn",
+			    "title" : "The Structure of Scientific Revolutions"
+			},
+			{
+			    "isbn10" : "0691158282",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4,
+			    "reflink" : "http://www.amazon.com/Rational-Ritual-Culture-Coordination-Knowledge/dp/0691158282/ref=sr_1_1?s=books&ie=UTF8&qid=1434593735&sr=1-1&keywords=Rational+Ritual",
+			    "image" : "http://ecx.images-amazon.com/images/I/71eeGg9j-hL.jpg",
+			    "description" : "Culture, Coordination, and Common Knowledge",
+			    "author" : "Michael Suk-Young Chwe",
+			    "title" : "Rational Ritual"
+			}
+		]
+	},
+	{
+		"_id": 2,
+		"person": "Mark Cuban",
+		"category": "business",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+
+	{
+		"_id": 3,
+		"person": "Elon Musk",
+		"category": "technology",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 4,
+		"person": "Oprah Winfrey",
+		"category": "entertainment",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 5,
+		"person": "Larry Page",
+		"category": "technology",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 7,
+		"person": "Hilary Rodham Clinton",
+		"category": "politics",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5000000000000000,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 8,
+		"person": "Steve Jobs",
+		"category": "technology",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	},
+	{
+		"_id": 9,
+		"person": "Stephen Colbert",
+		"category": "entertainment",
+		"title": "",
+		"description": "Bill Gates' best books for road trips",
+		"source": "http://www.wired.com/2013/12/bill-gates-reading-list/",
+		"books": [
+			{
+			    "isbn10" : "0143122010",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.3,
+			    "reflink" : "http://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/ref=sr_1_1?s=books&ie=UTF8&qid=1434593259&sr=1-1&keywords=The+Better+Angels+of+Our+Nature",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ZKg6tbqFL.jpg",
+			    "description" : "Why Violence Has Declined ",
+			    "author" : "Steven Pinker",
+			    "title" : "The Better Angels of Our Nature"
+			},
+			{
+			    "isbn10" : "0805390634",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Feynmans-Tips-Physics-Problem-Solving-Supplement/dp/0805390634/ref=tmm_hrd_title_0?ie=UTF8&qid=1434594016&sr=1-1",
+			    "image" : "http://ecx.images-amazon.com/images/I/71ohYcb504L._SL1500_.jpg",
+			    "description" : "Reflections, Advice, Insights, Practice",
+			    "author" : "Richard P. Feynman",
+			    "title" : "Feynman’s Tips on Physics"
+			},
+			{
+			    "isbn10" : "0809033593",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.7,
+			    "reflink" : "http://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593/ref=sr_1_1?s=books&ie=UTF8&qid=1434594140&sr=1-1&keywords=The+Cartoon+Introduction+to+Statistics&pebp=1434594142154&perid=1TAJ4EV6R4QTHSYRD0JY",
+			    "image" : "http://ecx.images-amazon.com/images/I/81BdXbXypiL.jpg",
+			    "description" : "",
+			    "author" : "Grady Klein",
+			    "title" : "The Cartoon Introduction to Statistics"
+			},
+			{
+			    "isbn10" : "0812977866",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.5,
+			    "reflink" : "http://www.amazon.com/Super-Sad-True-Love-Story/dp/0812977866/ref=sr_1_1?s=books&ie=UTF8&qid=1434594256&sr=1-1&keywords=Super+Sad+True+Love+Story%3A+A+Novel",
+			    "image" : "http://ecx.images-amazon.com/images/I/510jnPKfu5L.jpg",
+			    "description" : "",
+			    "author" : "Gary Shteyngart",
+			    "title" : "Super Sad True Love Story: A Novel"
+			},
+			{
+			    "isbn10" : "0143124404",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 3.9,
+			    "reflink" : "http://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404/ref=sr_1_1?s=books&ie=UTF8&qid=1434594372&sr=1-1&keywords=The+World+Until+Yesterday",
+			    "image" : "http://ecx.images-amazon.com/images/I/51gq-yQC8oL.jpg",
+			    "description" : "",
+			    "author" : "Jared Diamond",
+			    "title" : "The World Until Yesterday: What Can We Learn From Traditional Societies?"
+			},
+			{
+			    "_id" : "1591846803",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.2,
+			    "reflink" : "http://www.amazon.com/Tap-Dancing-Work-Practically-Everything/dp/1591846803/ref=sr_1_1?s=books&ie=UTF8&qid=1434594467&sr=1-1&keywords=Tap+Dancing+to+Work%3A+Warren+Buffet+on+Practically+Everything&pebp=1434594469120&perid=06VANC04P11Y2CM0DBP7",
+			    "image" : "http://ecx.images-amazon.com/images/I/51K1ZZ%2BZ2BL.jpg",
+			    "description" : "",
+			    "author" : "Carol J. Loomis",
+			    "title" : "Tap Dancing to Work: Warren Buffet on Practically Everything"
+			},
+			{
+			    "isbn10" : "0743262131",
+			    "goodreads_rating" : 4,
+			    "amazon_rating" : 4.5,
+			    "reflink" : "http://www.amazon.com/Path-Between-Seas-Creation-1870-1914/dp/0743262131/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr=1-1&qid=1434594563",
+			    "image" : "http://ecx.images-amazon.com/images/I/41QQ3AH0MSL.jpg",
+			    "description" : "",
+			    "author" : "David McCullough",
+			    "title" : "The Path Between the Seas: The Creation of the Panama Canal"
+			}
+		]
+	}
+]

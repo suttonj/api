@@ -1,0 +1,65 @@
+[
+	{
+		"_id": 0,
+		"name": "Bill Gates",
+		"description": "Philanthropist, Tech entrepreneur, Co-founder of Microsoft, World's Richest Person",
+		"image": "http://upload.wikimedia.org/wikipedia/commons/b/bd/Dts_news_bill_gates_wikipedia.JPG",
+		"booklist": 1
+	},
+	{
+		"_id": 1,
+		"name": "Mark Cuban",
+		"description": "American businessman, investor, film producer, and owner of the NBA's Dallas Mavericks. Also a Shark on Shark Tank.",
+		"image": "http://upload.wikimedia.org/wikipedia/commons/5/51/Mark_Cuban_2008.jpg",
+		"booklist": 2
+	},
+	{
+		"_id": 2,
+		"name": "Elon Musk",
+		"description": "South African-born Canadian American entrepreneur, engineer, inventor, investor, CEO and CTO of SpaceX, CEO and product architect of Tesla Motors, founder of SpaceX and a cofounder of PayPal",
+		"image": "http://en.wikipedia.org/wiki/Elon_ Musk#/media/File:Elon_Musk_-_The_Summit_2013.jpg",
+		"booklist": 3
+	},
+	{
+		"_id": 3,
+		"name": "Oprah Winfrey",
+		"description": "Host of The Ophrah Winfrey Show, actress, producer, and philanthropist",
+		"image": "http://en.wikipedia.org/wiki/Oprah_Winfrey#/media/File:Oprah_Winfrey_at_2011_TCA.jpg",
+		"booklist": 4
+	},
+	{
+		"_id": 4,
+		"name": "Larry Page",
+		"description": "American computer scientist and internet entrepreneur, co-founder and CEO of Google",
+		"image": "http://en.wikipedia.org/wiki/Larry_Page#/media/File:Larry_Page_in_the_European_Parliament,_17.06.2009.jpg",
+		"booklist": 5
+	},
+	{
+		"_id": 5,
+		"name": "Mark Zuckerberg",
+		"description": "American computer programmer and Internet entrepreneur, co-founder, chairman, and CEO of Facebook",
+		"image": "http://en.wikipedia.org/wiki/Mark_Zuckerberg#/media/File:Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg",
+		"booklist": 6
+	},
+	{
+		"_id": 6,
+		"name": "Hilary Rodham Clinton",
+		"description": "American politician and former United States Secretary of State, former First Lady and Senator",
+		"image": "http://en.wikipedia.org/wiki/Hillary_Rodham_Clinton#/media/File:Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg",
+		"booklist": 7
+	},
+	{
+		"_id": 7,
+		"name": "Steve Jobs",
+		"description": "American entrepreneur, marketer, inventor, was co-founder, chairman, and CEO of Apple Inc.",
+		"image": "http://en.wikipedia.org/wiki/Steve_Jobs#/media/File:Steve_Jobs_Headshot_2010-CROP.jpg",
+		"booklist": 8
+	},
+	{
+		"_id": 8,
+		"name": "Stephen Colbert",
+		"description": "American comedian, writer, actor, host of The Colbert Report, Late Night host",
+		"image": "http://en.wikipedia.org/wiki/Stephen_Colbert#/media/File:Stephen_Colbert_2014.jpg",
+		"booklist": 9
+	}
+]
