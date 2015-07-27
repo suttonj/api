@@ -1,0 +1,37 @@
+[
+	{ 
+        "_id": 0,
+        "title": "Business", 
+        "people": [ 
+        	{ "name": "Mark Cuban", "id": 1 },
+        	{ "name": "Bill Gates", "id" : 0 },
+        	{ "name":  "Elon Musk", "id" : 2 },
+        	{ "name": "Oprah Winfrey", "id": 3 }
+        ],
+        "image": "",
+        "description": ""
+	  },
+	  { 
+	    "_id": 1,
+	    "title": "Technology", 
+	    "people": [ 
+	    	{ "name": "Larry Page", "id": 4 },
+	    	{ "name": "Mark Zuckerberg", "id" : 5 },
+	    	{ "name":  "Elon Musk", "id" : 2 },
+	    	{ "name": "Steve Jobs", "id": 7 },
+	    	{ "name": "Bill Gates", "id": 0 }
+	    ],
+	    "image": "",
+        "description": ""
+	  },
+	  { 
+	    "_id": 2,
+	    "title": "Philanthropy", 
+	    "people": [ 
+	    	{ "name": "Hilary Rodham Clinton", "id": 6 },
+	    	{ "name": "Bill Gates", "id": 0 }
+	    ],
+	    "image": "",
+        "description": ""
+	  }
+]

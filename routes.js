@@ -3,10 +3,12 @@
 var express = require('express');
 // create our router
 var router = express.Router();
+var async = require('async');
 
 var Person     = require('./app/models/person');
 var BookList   = require('./app/models/booklist');
 var Book 	   = require('./app/models/book');
+var Topic 	   = require('./app/models/topic');
 
 var utils	   = require('./app/utils');
 
@@ -297,5 +299,118 @@ router.route('/books/:book_id')
 		});
 	});
 
+// on routes that end in /booklists
+// ----------------------------------------------------
+router.route('/topics')
+
+	// create a topics (accessed at POST http://localhost:8080/topics)
+	.post(function(req, res) {
+		
+		var topic = new Topic();	
+		var json = req.body;
+		console.dir(json);	// create a new instance of the Person model
+		topic._id = json._id;
+		topic.title = json.title;  // set the topics name (comes from the request)
+		topic.description = json.description;
+		topic.people = json.people;
+		topic.image = json.image;
+
+		topic.save(function(err) {
+			if (err)
+				res.send(err);
+
+			res.json({ message: 'Topic created!' });
+		});
+
+		
+	})
+
+	// get all the topics (accessed at GET http://localhost:8080/api/topics)
+	.get(function(req, res) {
+		Topic.find(function(err, topics) {
+			if (err)
+				res.send(err);
+
+
+			res.json(topics);
+		});
+	});
+
+// on routes that end in /topics/:topic_id
+// ----------------------------------------------------
+router.route('/topics/:topic_id')
+
+	// get the topic with that id
+	.get(function(req, res) {
+		Topic.findById(req.params.topic_id, function(err, topic) {
+			if (err)
+				res.send(err);
+
+			var calls = [];
+			var people = [];
+
+			topic.people.forEach(function(person){
+			    calls.push(function(callback) {
+			    	Person.findById(person.id, function(err, person) {
+						if (err)
+							return callback(err);
+						console.log(person);
+						//people.push(person);
+				        callback(null, person);
+					});
+			    });
+			});
+
+			async.parallel(calls, function(err, result) {
+			    /* this code will run after all calls finished the job or
+			       when any of the calls passes an error */
+			    if (err)
+			        return console.log(err);
+			    console.log(result);
+			    topic.people = result;
+				res.json(topic);
+
+			});
+		});
+	})
+
+	// update the topic with this id
+	.put(function(req, res) {
+		Topic.findById(req.params.topic_id, function(err, topic) {
+
+			if (err)
+				res.send(err);
+
+			//var books = [];
+			// for (var i = 0; i < topic.books.length; i++) {
+			// 	Book.findById(topic.books[i], function(err, book) {
+			// 		if (err)
+			// 			console.log(err);
+			// 		console.log(book);
+			// 		books.push(book);
+			// 		if (i == topic.books.length - 1) {
+			// 			topic.save(function(err) {
+			// 				if (err)
+			// 					res.send(err);
+
+			// 				res.json({ message: 'Topic updated!' });
+			// 			});
+			// 		}
+			// 	});
+			// }
+
+      		utils.updateDocument(topic, Topic, req.body);
+			// topic.topics = req.body.topics;
+			// topic.description = req.body.description;
+			// topic.books = req.body.books;
+			topic.save(function(err) {
+				if (err)
+					res.send(err);
+
+				res.json({ message: 'Topic updated!' });
+			});
+
+		});
+	})
 
 module.exports = router;
