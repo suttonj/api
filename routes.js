@@ -151,20 +151,34 @@ router.route('/booklists/:booklist_id')
 		BookList.findOne({ '_id': req.params.booklist_id }, function(err, booklist) {
 			if (err)
 				res.send(err);
-			// var books = [];
-			// for (var i = 0; i < booklist.books.length; i++) {
-			// 	Book.findById(booklist.books[i], function(err, book) {
-			// 		if (err)
-			// 			console.log(err);
-			// 		console.log(book);
-			// 		books.push(book);
-			// 		if (i == booklist.books.length - 1) {
-						
-			// 		}
-			// 	});
-			// }
-			//booklist.books = books;
-			res.json(booklist);
+			
+			var calls = [];
+			var people = [];
+
+		    //calls.push(function(callback) {
+		    	Person.findOne({ name: booklist.person }).lean().exec(function(err, person) {
+					if (err)
+						return callback(err);
+					Person.findOne({ '_id': person._id }, function(err, result) {
+						console.log(JSON.stringify(result));
+						//people.push(person);
+						booklist.person = JSON.stringify(result).trim();
+					res.json(booklist);
+				        //callback(null, person);
+					});
+				});
+		    //});
+
+			// async.parallel(calls, function(err, result) {
+			//      this code will run after all calls finished the job or
+			//        when any of the calls passes an error 
+			//     if (err)
+			//         return console.log(err);
+			//     console.log(result);
+			//     booklist.person = result[0];
+			// 	res.json(booklist);
+
+			// });
 		});
 	})
 
