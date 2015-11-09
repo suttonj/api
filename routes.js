@@ -163,7 +163,13 @@ router.route('/booklists/:booklist_id')
 						console.log(JSON.stringify(result));
 						//people.push(person);
 						booklist.person = JSON.stringify(result).trim();
-					res.json(booklist);
+
+						Book.find().where('_id').in(booklist.books).lean().exec(function(err, books) {
+							console.log(books);
+							booklist.books = JSON.stringify(books).trim();
+
+							res.json(booklist);
+						} );
 				        //callback(null, person);
 					});
 				});
@@ -249,15 +255,27 @@ router.route('/books')
 		book.reflink = req.body.reflink;
 		book.amazon_rating = req.body.amazon_rating;
 		book.goodreads_rating = req.body.goodreads_rating;
+		book.isbn10 = req.body.isbn;
+		book.references = new Array();
 
-		book.save(function(err) {
-			if (err)
-				res.send(err);
+		BookList.find({ 'books': req.body.isbn }).exec(function(err, booklists) {
+			if (booklists.length) {
+				console.log(booklists[0].person);
+				for (var i = 0; i < booklists.length; i++) {
+					book.references.push(booklists[i].person);
+				}
+				console.dir(book.references);
+			}
 
-			res.json({ message: 'Book created!' });
+			book.save(function(err) {
+				if (err)
+					res.send(err);
+
+				res.json({ message: 'Book created!' });
+			});
+				
 		});
 
-		
 	})
 
 	// get all the books (accessed at GET http://localhost:8080/api/books)
@@ -425,6 +443,15 @@ router.route('/topics/:topic_id')
 			});
 
 		});
+	})
+
+// ***** FORMS Routes ********** ///
+
+router.route('/forms/booklist')
+
+	// get the topic with that id
+	.get(function(req, res){
+		res.render('index', { name: 'Jeremy' });
 	})
 
 module.exports = router;

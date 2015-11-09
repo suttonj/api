@@ -8,7 +8,7 @@ var BookListSchema   = new Schema({
 	category: String,
 	title: String,
 	description: String,
-	books: [Schema.Types.Mixed],
+	books: [String],
 	source: String
 });
 
